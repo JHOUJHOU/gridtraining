@@ -1,5 +1,76 @@
-.index__h1 {
-  color:#00cc99;
-  font-size: 20px;
-  font-weight: 400;
+.header{
+  padding: 28px 0px;
+}
+.footer{
+  padding: 28px 0px;
+}
+.ticket-number{
+  padding: 2px 8px;
+}
+// banner
+.banner{
+  background: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/exhibition-week6/ricardo-gomez-angel-UrOZTfXT0h0-unsplash (1).jpg") center center no-repeat;
+  background-size: cover;
+  height: 480px;
+}
+// 選單
+.menu{
+  padding: 14px 0px;
+  .swiper-container{
+    width: 100%;
+    height: 100%;
+  }
+  .swiper-slide  {
+    width: 65px;
+  }
+}
+// 熱門特展
+.popular{
+
+  @media(min-width:992px){
+    .card{
+      padding: 0px 15px;
+      padding-top: 24px;
+    }
+  }
+  .fbicon{
+    width: 24px;
+    height: auto;
+  }
+}
+//直播回顧
+.record{
+  .card{
+    background: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/exhibition-week6/people2.png") center center no-repeat;
+    background-size: cover;
+    .bgrecord{
+      background: #190014CC;
+    }
+  }
+    
+}
+// 猜你也喜歡
+.random{
+  .swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .swiper-slide img {
+    width: 350px;
+    height: 350px;
+  }
+}
+// 想收到最新消息嗎
+.news{
+  background: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/exhibition-week6/wladislaw-peljuchno-Y_f1aHpR1tc-unsplash.jpg") center center no-repeat;
+  background-size: cover;
+  height: 400px;
+  .btn{
+    padding: 0 52px;
+  }
 }
