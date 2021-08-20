@@ -7,6 +7,12 @@ img{
     max-width: 100%;
     height: auto;
 }
+ul{
+    margin: 0px;
+}
+p{
+    margin: 0px;
+}
 *,*::before,*::after{
     box-sizing: border-box;
 }
@@ -21,14 +27,21 @@ img{
 .mb-20{
     margin-bottom: 20px;
 }
+.mb-md-80{
+    margin-bottom: 80px;
+}
 .pb-36{
     padding-bottom: 36px;
 }
 .fs-22{
     font-size: 22px;
 }
+
 @include media-breakpoint-up(md) {
     .w-md-auto {
     width: auto!important;
+    }
+    .fs-36{
+        font-size: 36px;
     }
 }
